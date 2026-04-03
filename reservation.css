@@ -107,3 +107,22 @@ a:hover{
     border-radius:8px;
     display:none;
 }
+/* --- RESPONSIVE (sans burger) --- */
+@media (max-width:900px){
+  .jeffrey{flex-direction:column;text-align:center}
+  .apropos{padding:40px 16px}
+}
+@media (max-width:768px){
+  .helo{justify-content:center;gap:8px}
+  .navbar{justify-content:center;gap:12px;flex-wrap:wrap}
+  .navbar a{margin:0 8px;font-size:0.95rem}
+  .acceuil{padding:60px 16px}
+}
+@media (max-width:480px){
+  .logo{font-size:1.3rem}
+  .navbar{gap:8px}
+  .navbar a{font-size:0.9rem}
+  .acceuil{padding:50px 14px}
+  .acceuil1 a{display:block;margin:10px auto;max-width:260px}
+  .apropos{padding:32px 14px}
+}
