@@ -70,7 +70,7 @@ a:hover{
     color: rgb(8, 105, 184);
 }
 .acceuil{
-    background-image: url(../image/51.jpg);
+    background-image: url(./51.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
